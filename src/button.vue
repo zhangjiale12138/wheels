@@ -3,12 +3,9 @@
 </template>
 <script>
 export default {
-
 }
-
 </script>
 <style lang="scss">
-
 .g-button{
   font-size: var(--font-size);
   height: var(--button-height);
@@ -25,8 +22,6 @@ export default {
   &:focus{
     outline: none;
   }
-
 }
-
 
 </style>
