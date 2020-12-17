@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zhangjiale12138/wheels/issues"
   },
-  "homepage": "https://github.com/zhangjiale12138/wheels#readme"
+  "homepage": "https://github.com/zhangjiale12138/wheels#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
