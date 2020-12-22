@@ -12473,7 +12473,9 @@ exports.default = _default;
       class: ((_obj = {}), (_obj["icon-" + _vm.iconPosition] = true), _obj)
     },
     [
-      _vm.icon ? _c("g-icon", { attrs: { name: _vm.icon } }) : _vm._e(),
+      _vm.icon
+        ? _c("g-icon", { staticClass: "icon", attrs: { name: _vm.icon } })
+        : _vm._e(),
       _vm._v(" "),
       _c("div", { staticClass: "content" }, [_vm._t("default")], 2)
     ],
@@ -12526,7 +12528,7 @@ exports.default = void 0;
 //
 //
 var _default = {
-  props: ['name']
+  props: ["name"]
 };
 exports.default = _default;
         var $a09ef0 = exports.default || module.exports;
